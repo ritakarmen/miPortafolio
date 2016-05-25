@@ -1,0 +1,63 @@
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 5px;
+    padding: 7px 16px;
+    border: 2px solid $white;
+    border-radius: 35px;
+    font-size: 40px;
+    color: $white;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+span.name {
+	font-size: 5rem;
+	margin: 0;
+	padding: 3rem 0 0 3rem;
+}
+
+
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: $font_0, $font_1, $font_2, $font_3, $font_4;
+    text-shadow: -2px -2px 1px #11094E, 1px -2px 1px #11094E, -2px 1px 1px #11094E, 1px 2px 1px #11094E;;
+    font-size: 2em;
+    font-weight: 700;
+    height: 500px;
+    padding-top:220px;
+}
+.col-lg-12.headerP{
+    padding-top:15px;
+}
+Inherited from headerheader {
+    text-align: center;
+    color: $white;
+    background: $color_mountain_meadow_approx;
+}
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header {
+	// opacity: 0.7;
+	text-align: center;
+	color: $white;
+	// background: $color_mountain_meadow_approx;
+	background: url(../images/headerq.jpg)bottom center no-repeat #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+// url(../images/intro-bg.jpg)
+// img (src="../images/logo.jpg"la noche estrellada)
+
+}
+
+header .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}

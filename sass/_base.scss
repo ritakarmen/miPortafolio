@@ -1,0 +1,29 @@
+
+body {
+    overflow-x: hidden;
+}
+
+//fonts
+$font_0: Montserrat;
+$font_1: Helvetica Neue;
+$font_2: Helvetica;
+$font_3: Arial;
+$font_4: sans-serif;
+
+
+@media  screen and (min-width:320px) and (max-width: 768px) {
+	.navbar-toggle {
+    border:1px solid $white;
+    span{
+    	background-color:$white;
+    }
+}
+.navbar-header{
+	background-color:$black;
+}
+.navbar-collapse {
+    background-color:$black;
+    color: $white;
+}
+
+}

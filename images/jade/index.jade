@@ -1,0 +1,128 @@
+doctype html
+html(lang="es")
+	head
+		title Mi_Portafolio 
+		meta(charset="utf-8")
+		meta(name="viewport",content="whidth=device-width, initial-scale=1.0")
+		link(href='css/bootstrap.min.css', rel='stylesheet')
+		link(href='font-awesome/css/font-awesome.min.css', rel='stylesheet', type='text/css')
+		link(href="css/animate.css",rel="stylesheet",media="screen")
+		link(href="css/main.css",rel="stylesheet",media="screen")				
+	body#page-top.index
+		nav.navbar.navbar-custom.navbar-fixed-top(role='navigation')
+			.container
+				.navbar-header
+					button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-main-collapse')
+						span.sr-only Toggle navigation
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					a.navbar-brand.page-scroll(href='#page-top') 
+						span.light Principal
+				.collapse.navbar-collapse.navbar-right.navbar-main-collapse
+					ul.nav.navbar-nav.navbar-right
+						li.hidden
+							a(href='#page-top')
+						li.page-scroll
+							a(href='#portfolio') Portfolio
+						li.page-scroll
+							a(href='#about') Sobre mi
+						li.page-scroll
+							a(href='#contact') Conocimiento
+		header
+			.container
+				.row
+					.col-lg-12.headerP.opacity
+						//- img.img-responsive(src='images/yoop.jpeg',class="img-circle", alt='')
+						.intro-text
+							span.animated.shake.name Hola, mi nombre es Rita, me gusta el diseño y desarrollo de páginas web, te invito a ver parte de lo que aprendi.
+						a.btn.btn-circle.page-scroll.pulse(href='#about')
+							i.fa.fa-angle-double-down
+		section#portfolio.portafolio
+			.container
+				.row
+					.col-lg-12.text-center
+						h2 Portfolio
+						hr.star-primary
+				.row
+					.col-sm-4.portfolio-item
+						a.portfolio-link(href='#portfolioModal1', data-toggle='modal')
+							.caption
+								.caption-content
+									i.fa.fa-search-plus.fa-3x
+							img.animated.wobble.img-responsive(src='images/loveBlog.jpg', class="img-circle", alt='')
+					.col-sm-4.portfolio-item
+						a.portfolio-link(href='#portfolioModal2', data-toggle='modal')
+							.caption
+								.caption-content
+									i.fa.fa-search-plus.fa-3x
+							img.img-responsive(src='images/loveBlog.jpg',class="img-circle", alt='')
+					.col-sm-4.portfolio-item
+						a.portfolio-link(href='#portfolioModal3', data-toggle='modal')
+							.caption
+								.caption-content
+									i.fa.fa-search-plus.fa-3x
+							img.img-responsive(src='images/loveBlog.jpg', class="img-circle", alt='')
+					.col-sm-4.portfolio-item
+						a.portfolio-link(href='#portfolioModal4', data-toggle='modal')
+							.caption
+								.caption-content
+									i.fa.fa-search-plus.fa-3x
+							img.img-responsive(src='images/loveBlog.jpg', class="img-circle", alt='')
+					.col-sm-4.portfolio-item
+						a.portfolio-link(href='#portfolioModal5', data-toggle='modal')
+							.caption
+								.caption-content
+									i.fa.fa-search-plus.fa-3x
+							img.img-responsive(src='images/loveBlog.jpg', class="img-circle", alt='')
+					.col-sm-4.portfolio-item
+						a.portfolio-link(href='#portfolioModal6', data-toggle='modal')
+							.caption
+								.caption-content
+									i.fa.fa-search-plus.fa-3x
+							img.img-responsive(src='images/loveBlog.jpg', class="img-circle", alt='')
+		section#about.success
+			.container
+				h2 Sobre mi
+				hr.star-light
+				.row
+					.comentario.col-sm-5
+						//- img.img-responsive(src='images/yop.jpg',class="img-circle", alt='')
+					.comentario.col-sm-7
+						p
+						| Soy de aquellas personas que disfruta del lenguaje de programación, por ello mi meta es convertirme en ingeniera de software. Tengo experiencia  trabajando en equipo para el desarrollo de proyecto.
+						p
+						| Cuando no programo, me dedico a armar rompecabezas, a dibujar y disfrutar de la lectura de un buen libro.
+		footer.text-center
+			.footer-above
+				.container
+					.row
+						.footer-col.col-md-4
+							
+						.footer-col.col-md-4
+							
+						.footer-col.col-md-4
+							
+			.footer-below
+				.container
+					.row
+						.col-lg-12
+							h3 Sigueme
+							ul.list-inline
+								li
+									a.btn-social.btn-outline(href='#')
+										i.fa.fa-fw.fa-facebook
+								li
+									a.btn-social.btn-outline(href='#')
+										i.fa.fa-fw.fa-google-plus
+								li
+									a.btn-social.btn-outline(href='#')
+										i.fa.fa-fw.fa-twitter
+								li
+									a.btn-social.btn-outline(href='#')
+										i.fa.fa-fw.fa-linkedin
+								li
+									a.btn-social.btn-outline(href='#')
+										i.fa.fa-fw.fa-dribbble
+		script(src='js/jquery.js')
+		script(src='js/bootstrap.min.js')

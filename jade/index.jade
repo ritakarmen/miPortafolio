@@ -1,0 +1,19 @@
+doctype html
+html(lang="es")
+	head
+		title Mi_Portafolio 
+		meta(charset="utf-8")
+		meta(name="viewport",content="whidth=device-width, initial-scale=1.0")
+		link(href='css/bootstrap.min.css', rel='stylesheet')
+		link(href='font-awesome/css/font-awesome.min.css', rel='stylesheet', type='text/css')
+		link(href="css/animate.css",rel="stylesheet",media="screen")
+		link(href="css/main.css",rel="stylesheet",media="screen")				
+	body#page-top.index
+		include navegador.jade
+		include header.jade
+		include portafolio.jade
+		include about.jade
+		include footer.jade
+		
+		script(src='js/jquery.js')
+		script(src='js/bootstrap.min.js')

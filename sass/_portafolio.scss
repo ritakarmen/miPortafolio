@@ -1,0 +1,30 @@
+
+#portfolio {
+	* {
+		z-index: 2;
+	}
+	.portfolio-item .portfolio-link .caption {
+		position: absolute;
+		// width: 100%;
+		height: 100%;
+		opacity: 0;
+		background: $color_mountain_meadow_90_approx;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: all ease .5s;
+	}
+}
+#portfolio * {
+    z-index: 2;
+}
+
+
+section.portafolio {
+	margin:10px;
+	height:auto;
+	padding: 30px 0;
+	color: #596790;
+	&.success {
+		color: $white;
+		background: $color_mountain_meadow_approx;
+	}
+}
