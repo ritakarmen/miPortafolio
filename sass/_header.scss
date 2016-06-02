@@ -1,9 +1,87 @@
+.carousel {
+    height: 708px;
+    margin-top: 67px;
+    .item {
+        height: 708px;
+        background-color: #777;
+    }
+}
+.carousel-caption {
+    z-index: 10;
+}
+.carousel-inner {
+    >.item {
+        >.img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            height: 708px;
+        }
+    }
+}
+.slide {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide1 {
+    background-image: url("../images/amigas12.jpg");
+}
+.slide2 {
+    background-image: url("../images/computadora.jpg");
+}
+.slide3 {
+    background-image: url("../images/yopi.jpg");
+}
+.base {
+    background-image: url("../images/diagonal.png");
+    width: 100%;
+    z-index: 940;
+    background-repeat: no-repeat;
+    background-position: center top;
+    position: absolute;
+    bottom: 0px;
+    height: 135px;
+    text-align: center;
+}
+.hero-imagen {
+    .base {
+        bottom: 88px;
+    }
+}
+.h1center {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    img {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    h1 {
+        margin: 0px;
+    }
+}
+.h1home {
+    margin-top: 57px;
+}
+
+header.intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: $font_0, $font_1, $font_2, $font_3, $font_4;
+    text-shadow: -2px -2px 1px #11094E, 1px -2px 1px #11094E, -2px 1px 1px #11094E, 1px 2px 1px #11094E;;
+    font-size: 2em;
+    font-weight: 700;
+    height: 300px;
+    padding-top:200px;
+}
 
 .btn-circle {
     width: 70px;
     height: 70px;
-    margin-top: 5px;
-    padding: 7px 16px;
+    margin: 5px 450px;
+    padding: 7px 6px;
     border: 2px solid $white;
     border-radius: 35px;
     font-size: 40px;
@@ -14,50 +92,62 @@
     transition: background .3s ease-in-out;
 }
 span.name {
-	font-size: 5rem;
-	margin: 0;
-	padding: 3rem 0 0 3rem;
+ font-size: 18px;
+ margin: 0;
+ padding: 3rem 0 0 3rem;
 }
+// .carousel,
+// .item,
+// .active {
+//     height: 100%;
+// }
+
+// .carousel-inner {
+//     height: 100%;
+// }
+
+// /* Background images are set within the HTML using inline CSS, not here */
+
+// img.fill {
+//     width: 100%;
+//     height: 100%;
+//     background-position: center;
+//     -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//     background-size: cover;
+//     -o-background-size: cover;
+// }
 
 
-header .intro-text .name {
-    display: block;
-    text-transform: uppercase;
-    font-family: $font_0, $font_1, $font_2, $font_3, $font_4;
-    text-shadow: -2px -2px 1px #11094E, 1px -2px 1px #11094E, -2px 1px 1px #11094E, 1px 2px 1px #11094E;;
-    font-size: 2em;
-    font-weight: 700;
-    height: 500px;
-    padding-top:220px;
-}
-.col-lg-12.headerP{
-    padding-top:15px;
-}
-Inherited from headerheader {
-    text-align: center;
-    color: $white;
-    background: $color_mountain_meadow_approx;
-}
-header img {
-    display: block;
-    margin: 0 auto 20px;
-}
 
-header {
-	// opacity: 0.7;
-	text-align: center;
-	color: $white;
-	// background: $color_mountain_meadow_approx;
-	background: url(../images/headerq.jpg)bottom center no-repeat #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-// url(../images/intro-bg.jpg)
-// img (src="../images/logo.jpg"la noche estrellada)
+// //----------
 
-}
 
-header .container {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
+
+
+// Inherited from headerheader {
+//     text-align: center;
+//     color: $white;
+//     background: $color_mountain_meadow_approx;
+// }
+// header img {
+//     display: block;
+//     // margin: 0 auto 20px;
+// }
+
+// header {
+//     // width: 1280px;
+//     // height: 500px;
+// 	// opacity: 0.7;
+// 	text-align: center;
+// 	color: $white;
+// 	// background: $color_mountain_meadow_approx;
+// 	 background: url(../images/giphy4.gif) bottom center no-repeat #000;
+//     -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//     background-size: cover;
+// // url(../images/intro-bg.jpg)
+// // img (src="../images/logo.jpg"la noche estrellada)
+
+// }
+

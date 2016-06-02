@@ -4,6 +4,12 @@
 
 .nav>li>a{
 	&:hover {
-		background:$navHoverbackground;
+		background:$hoverColor;
+		border-radius: 30px;
 	}
+}
+.navbar-fixed-top {
+	background: $navHoverbackground;
+    // background-image: url("../images/giphy2.gif");
+    padding-bottom: 16px;
 }

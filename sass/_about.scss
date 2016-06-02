@@ -1,14 +1,18 @@
 section.success {
-	padding:80px;
-	height:500px;
+	padding:50px;
+	height:600px;
     color: #fff;
     text-shadow: -2px -2px 1px #11094E, 1px -2px 1px #11094E, -2px 1px 1px #11094E, 1px 2px 1px #11094E;
-    background: url(../images/fondo1.jpeg)bottom center no-repeat #000;
+    background: url(../images/giphy2.gif)bottom center no-repeat #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+
 }
 
 .comentario{
 	font-size:20px;
+}
+.img-circle {
+    height: 280px;
 }

@@ -1,43 +1,58 @@
 section#portfolio.portafolio
-			.container
-				.row
-					.col-lg-12.text-center
-						h2 Portfolio
-						hr.star-primary
-				.row
-					.col-sm-4.portfolio-item
-						a.portfolio-link(href='#portfolioModal1', data-toggle='modal')
-							.caption
-								.caption-content
-									i.fa.fa-search-plus.fa-3x
-							img.animated.wobble.img-responsive(src='images/loveBlog.jpg', class="img-circle", alt='')
-					.col-sm-4.portfolio-item
-						a.portfolio-link(href='#portfolioModal2', data-toggle='modal')
-							.caption
-								.caption-content
-									i.fa.fa-search-plus.fa-3x
-							img.img-responsive(src='images/loveBlog.jpg',class="img-circle", alt='')
-					.col-sm-4.portfolio-item
-						a.portfolio-link(href='#portfolioModal3', data-toggle='modal')
-							.caption
-								.caption-content
-									i.fa.fa-search-plus.fa-3x
-							img.img-responsive(src='images/loveBlog.jpg', class="img-circle", alt='')
-					.col-sm-4.portfolio-item
-						a.portfolio-link(href='#portfolioModal4', data-toggle='modal')
-							.caption
-								.caption-content
-									i.fa.fa-search-plus.fa-3x
-							img.img-responsive(src='images/loveBlog.jpg', class="img-circle", alt='')
-					.col-sm-4.portfolio-item
-						a.portfolio-link(href='#portfolioModal5', data-toggle='modal')
-							.caption
-								.caption-content
-									i.fa.fa-search-plus.fa-3x
-							img.img-responsive(src='images/loveBlog.jpg', class="img-circle", alt='')
-					.col-sm-4.portfolio-item
-						a.portfolio-link(href='#portfolioModal6', data-toggle='modal')
-							.caption
-								.caption-content
-									i.fa.fa-search-plus.fa-3x
-							img.img-responsive(src='images/loveBlog.jpg', class="img-circle", alt='')
+	.container
+		.row
+			.col-xlg-12.text-center
+				h2 Portfolio
+				hr.star-primary
+			.row.caja
+				.col-sm-4
+					.ih-item.circle.effect2.left_to_right
+						a(href='#')
+							.img
+								img(src='images/loveBlog.png', alt='img-circle')
+							.info
+								h3 LoveBlog
+								p animacion carrusel
+				.col-sm-4
+					.ih-item.circle.effect2.left_to_right
+						a(href='#')
+							.img
+								img(src='images/Flatheme.png', alt='img-circle')
+							.info
+								h3 Flat theme
+								p animacion
+				.col-sm-4
+					.ih-item.circle.effect2.left_to_right
+						a(href='#')
+							.img
+								img(src='images/panecolores.png', alt='img-circle')
+							.info
+								h3 Panel Colores
+								p Uso de sass
+			.row.caja
+				.col-sm-4
+					.ih-item.circle.effect2.left_to_right
+						a(href='#')
+							.img
+								img(src='images/portafolioGrupo.png', alt='img-circle')
+							.info
+								h3 Portafolio Grupal
+								p Proyecto colaborativo
+				.col-sm-4
+					.ih-item.circle.effect2.left_to_right
+						a(href='#')
+							.img
+								img(src='images/smashFace.png', alt='img-circle')
+							.info
+								h3 Smash Face
+								p Juego realizado en JS
+				.col-sm-4
+					.ih-item.circle.effect2.left_to_right
+						a(href='#')
+							.img
+								img(src='images/relojDigital.png', alt='img-circle')
+							.info
+								h3 Reloj Digital
+								p Desarrollado con JQuery
+				a.btn.btn-circle.page-scroll.pulse(href='#about')
+					i.fa.fa-angle-double-down

@@ -1,0 +1,26 @@
+section.formulario.text-center
+  .container
+    .row
+      .center-block.head
+        .col-lg-12.col-md-12.col-xs-12
+          h1 Get in Touch
+          hr.head-border-grey
+            p.center Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+        .col-lg-8.col-md-8.col-lg-offset-2.col-md-offset-2.form
+          form#contactForm.form-horizontal(role='form', method='post', name='contactForm')
+            .form-group
+              .col-sm-12
+                input#name.form-control.input-lg(type='text', name='name', placeholder='Name*')
+            .form-group
+              .col-sm-12
+                input#email.form-control.input-lg(type='email', name='email', placeholder='Email*')
+            .form-group
+              .col-sm-12
+                input#phone.form-control.input-lg(type='text', name='phone', placeholder='Phone')
+            .form-group
+              .col-sm-12
+                textarea#message.form-control.input-lg(rows='10', name='message', placeholder='Message*')
+              .control-group.submit.center
+                input.btn.btn-lg.btn-primary(type='submit', value='Submit')
+              p.d-grey.requi * Required
+    
